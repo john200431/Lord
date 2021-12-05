@@ -72,7 +72,7 @@ const { sewabotkak } = require('./lib/sewabot.js')
 const { uploadImages } = require('./lib/uploadimage')
 const { addBadword, delBadword, isKasar, addCountKasar, isCountKasar, delCountKasar } = require("./lib/badword");
 const { addCommands, getJawabanCmd, getSoalCmd, getCommandsPosi, checkCommands, isCreated, deleteCommands } = require('./lib/commands')
-const lolkey = '78bd89cd7b4d6205e3e18061' 
+const lolkey = 'c949e481e96fb5d42fe24bc0' 
 
 			const tictactoe = JSON.parse(fs.readFileSync("./database/tictactoe.json"))
 			const _win = JSON.parse(fs.readFileSync('./database/tttwin.json'))
