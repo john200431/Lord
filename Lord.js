@@ -72,7 +72,7 @@ const { sewabotkak } = require('./lib/sewabot.js')
 const { uploadImages } = require('./lib/uploadimage')
 const { addBadword, delBadword, isKasar, addCountKasar, isCountKasar, delCountKasar } = require("./lib/badword");
 const { addCommands, getJawabanCmd, getSoalCmd, getCommandsPosi, checkCommands, isCreated, deleteCommands } = require('./lib/commands')
-const lolkey = 'c949e481e96fb5d42fe24bc0' 
+const lolkey = '78bd89cd7b4d6205e3e18061' 
 
 			const tictactoe = JSON.parse(fs.readFileSync("./database/tictactoe.json"))
 			const _win = JSON.parse(fs.readFileSync('./database/tttwin.json'))
@@ -108,7 +108,7 @@ let antitrol = true
 
 let hit_today = []
 let blocked = []
-let limitawal = "8000" 
+let limitawal = "100" 
 let namabot = setting.botname
 let owner_name = setting.ownername
 let owner_number = setting.ownerNumber
@@ -123,8 +123,8 @@ let public_mode = setting. public_mode
 let mlistmsg = false 
 let multiprefix = true 
 let nopref = false
-let autovn = true
-let ngetik = true
+let autovn = false
+let ngetik = false
 let menusimple = false
 let Mloc = false
 let autoregister = setting.user_register
@@ -454,10 +454,10 @@ Minat? Pm wa.me/${owner_number}`,
 						admin: 'Khusus Admin Group Lord',
 						group: 'Khusus Dalam Grup Lord',
 						 prem: 'Khusus User Premium Lord',
-						owner: 'Khusus Owner Bot Lord',
+						owner: 'Khusus Owner APYP bot',
 						 }
 					} 
-	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'zeeoneofc', sellerJid: '0@s.whatsapp.net'}}, sendEphemeral: true}
+	    const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net",   "remoteJid": "6289523258649-1604595598@g.us"  }, "message": {orderMessage: {itemCount: 2021,status: 200, thumbnail: thumbnail, surface: 200, message: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, orderTitle: 'APYP', sellerJid: '0@s.whatsapp.net'}}, sendEphemeral: true}
         const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`,jpegThumbnail: thumbnail}}}
         const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} } 
         const fgif = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title":`「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `「 𝐑𝐔𝐍𝐓𝐈𝐌𝐄 」\n${runtime2}`, 'jpegThumbnail': thumbnail}}}
@@ -1823,7 +1823,7 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('Isi sendiri')
+									reply('indosat: 085806941888')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
